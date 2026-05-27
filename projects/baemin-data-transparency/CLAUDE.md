@@ -31,12 +31,12 @@ projects/baemin-data-transparency/
 
 각 Phase는 독립된 GitHub Issue로 관리. 한 세션에서는 한 Phase만 집중.
 
-### Phase 0: 방향 확정 (D+1 ~ D+7) → Issue #1
-- [ ] T001: 제품 프레임 확정
-- [ ] T002: 사장님 인터뷰 후보 10명 확보
-- [ ] T003: 배민셀프서비스 화면/다운로드 자료 맵핑
-- [ ] T004: 메시지 원칙 수립
-**산출물:** `docs/product-principles.md`, `docs/data-source-map.md`
+### Phase 0: 방향 확정 (D+1 ~ D+7) → Issue #1 ✅ 완료
+- [x] T001: 제품 프레임 확정 → `docs/product-principles.md`
+- [x] T002: 사장님 인터뷰 후보 10명 확보 → `docs/interview-plan.md` (인터뷰 설계 완료, 실제 모집은 오프라인)
+- [x] T003: 배민셀프서비스 화면/다운로드 자료 맵핑 → `docs/data-source-map.md`
+- [x] T004: 메시지 원칙 수립 → `docs/messaging-guidelines.md`
+**산출물:** `docs/product-principles.md`, `docs/data-source-map.md`, `docs/interview-plan.md`, `docs/messaging-guidelines.md`
 
 ### Phase 1: 법무/개인정보 설계 (D+8 ~ D+20) → Issue #2
 - [ ] T005: 배민 약관 리스크 메모
