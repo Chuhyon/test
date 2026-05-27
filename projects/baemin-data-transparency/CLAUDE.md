@@ -55,16 +55,16 @@ projects/baemin-data-transparency/
 - [x] T015: 익명화/마스킹 규칙 정의 → `docs/masking-policy.md`
 **산출물:** `docs/data-model.md`, `docs/data-dictionary.md`, `docs/data-layer-design.md`, `docs/data-quality-rules.md`, `docs/masking-policy.md`, `src/schema/init.sql`
 
-### Phase 3: MVP 개발 (D+21 ~ D+35) → Issue #4
-- [ ] T016: 업로드 기반 MVP 플로우 설계
-- [ ] T017: 지원 파일 유형 정의
-- [ ] T018: 파일 파서 구현
-- [ ] T019: 정산 검증 계산 로직
-- [ ] T020: 광고 ROI 계산 로직
-- [ ] T021: 메뉴별 수익성 분석
-- [ ] T022: 사장님 리포트 화면 설계
-- [ ] T023: 감사 로그 구현
-**산출물:** `src/parsers/`, `src/analytics/`, `src/api/`
+### Phase 3: MVP 개발 (D+21 ~ D+35) → Issue #4 ✅ 완료
+- [x] T016: 업로드 기반 MVP 플로우 설계 → `docs/mvp-flow.md`
+- [x] T017: 지원 파일 유형 정의 → `docs/file-format-spec.md`
+- [x] T018: 파일 파서 구현 → `src/parsers/`
+- [x] T019: 정산 검증 계산 로직 → `src/analytics/settlement.py`
+- [x] T020: 광고 ROI 계산 로직 → `src/analytics/ad_roi.py`
+- [x] T021: 메뉴별 수익성 분석 → `src/analytics/menu_profitability.py`
+- [x] T022: 사장님 리포트 화면 설계 → `docs/report-ui-spec.md`
+- [x] T023: 감사 로그 구현 → `src/api/audit_log.py`
+**산출물:** `src/parsers/`, `src/analytics/`, `src/privacy/`, `src/api/`, `tests/`
 
 ### Phase 4: 파일럿 검증 (D+36 ~ D+55) → Issue #5
 - [ ] T024: 파일럿 가게 5~10곳 모집
