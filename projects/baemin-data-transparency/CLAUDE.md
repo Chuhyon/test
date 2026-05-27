@@ -38,14 +38,14 @@ projects/baemin-data-transparency/
 - [x] T004: 메시지 원칙 수립 → `docs/messaging-guidelines.md`
 **산출물:** `docs/product-principles.md`, `docs/data-source-map.md`, `docs/interview-plan.md`, `docs/messaging-guidelines.md`
 
-### Phase 1: 법무/개인정보 설계 (D+8 ~ D+20) → Issue #2
-- [ ] T005: 배민 약관 리스크 메모
-- [ ] T006: 개인정보 처리 범위 정의
-- [ ] T007: 동의서 초안 작성
-- [ ] T008: 보관·삭제 정책 설계
-- [ ] T009: 리뷰 원문/이미지 취급 정책
-- [ ] T010: 계정정보 비저장 원칙 수립
-**산출물:** `docs/legal-risk-memo.md`, `docs/privacy-scope.md`, `docs/consent-draft.md`
+### Phase 1: 법무/개인정보 설계 (D+8 ~ D+20) → Issue #2 ✅ 완료
+- [x] T005: 배민 약관 리스크 메모 → `docs/legal-risk-memo.md`
+- [x] T006: 개인정보 처리 범위 정의 → `docs/privacy-scope.md`
+- [x] T007: 동의서 초안 작성 → `docs/consent-draft.md`
+- [x] T008: 보관·삭제 정책 설계 → `docs/retention-policy.md`
+- [x] T009: 리뷰 원문/이미지 취급 정책 → `docs/review-data-policy.md`
+- [x] T010: 계정정보 비저장 원칙 수립 → `docs/credential-policy.md`
+**산출물:** `docs/legal-risk-memo.md`, `docs/privacy-scope.md`, `docs/consent-draft.md`, `docs/retention-policy.md`, `docs/review-data-policy.md`, `docs/credential-policy.md`
 
 ### Phase 2: 데이터 설계 (D+14 ~ D+20) → Issue #3
 - [ ] T011: 표준 데이터 모델 설계
