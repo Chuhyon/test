@@ -47,13 +47,13 @@ projects/baemin-data-transparency/
 - [x] T010: 계정정보 비저장 원칙 수립 → `docs/credential-policy.md`
 **산출물:** `docs/legal-risk-memo.md`, `docs/privacy-scope.md`, `docs/consent-draft.md`, `docs/retention-policy.md`, `docs/review-data-policy.md`, `docs/credential-policy.md`
 
-### Phase 2: 데이터 설계 (D+14 ~ D+20) → Issue #3
-- [ ] T011: 표준 데이터 모델 설계
-- [ ] T012: 수수료·정산 항목 사전 작성
-- [ ] T013: raw/parsed/clean 분리 설계
-- [ ] T014: 데이터 품질 룰 정의
-- [ ] T015: 익명화/마스킹 규칙 정의
-**산출물:** `docs/data-model.md`, `docs/data-dictionary.md`, `src/schema/`
+### Phase 2: 데이터 설계 (D+14 ~ D+20) → Issue #3 ✅ 완료
+- [x] T011: 표준 데이터 모델 설계 → `docs/data-model.md`, `src/schema/init.sql`
+- [x] T012: 수수료·정산 항목 사전 작성 → `docs/data-dictionary.md`
+- [x] T013: raw/parsed/clean 분리 설계 → `docs/data-layer-design.md`
+- [x] T014: 데이터 품질 룰 정의 → `docs/data-quality-rules.md`
+- [x] T015: 익명화/마스킹 규칙 정의 → `docs/masking-policy.md`
+**산출물:** `docs/data-model.md`, `docs/data-dictionary.md`, `docs/data-layer-design.md`, `docs/data-quality-rules.md`, `docs/masking-policy.md`, `src/schema/init.sql`
 
 ### Phase 3: MVP 개발 (D+21 ~ D+35) → Issue #4
 - [ ] T016: 업로드 기반 MVP 플로우 설계
